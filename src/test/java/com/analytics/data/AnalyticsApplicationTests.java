@@ -1,10 +1,10 @@
-package com.analitycs.data;
+package com.analytics.data;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DataApplicationTests {
+class AnalyticsApplicationTests {
 
     @Test
     void contextLoads() {

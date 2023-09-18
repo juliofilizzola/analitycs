@@ -1,13 +1,13 @@
-package com.analitycs.data;
+package com.analytics.data;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataApplication {
+public class AnalyticsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DataApplication.class, args);
+        SpringApplication.run(AnalyticsApplication.class, args);
     }
 
 }
