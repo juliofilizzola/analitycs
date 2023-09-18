@@ -15,5 +15,5 @@ public class PriceAnalyticsEntity {
 
     private String model;
 
-    private long posts;
+    private Double price;
 }
