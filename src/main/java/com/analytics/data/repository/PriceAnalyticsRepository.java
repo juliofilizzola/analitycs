@@ -7,7 +7,4 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface PriceAnalyticsRepository extends JpaRepository<PriceAnalyticsEntity, Long> {
-
-    Optional<PriceAnalyticsEntity> findByPrice(String aLong);
-}
+public interface PriceAnalyticsRepository extends JpaRepository<PriceAnalyticsEntity, Long> {}
